@@ -5,6 +5,5 @@ x = 1;
 while x <= user_input
  puts x
  x = x + 1
-   
 end
 
