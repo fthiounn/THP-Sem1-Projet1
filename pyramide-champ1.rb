@@ -1,7 +1,10 @@
-puts "Veuillez entrer un nombre entre 1 et 25"
-print "> "
+user_input = 0
 
-user_input = gets.to_i
+while user_input>25 || user_input<1
+	puts "Veuillez entrer un nombre entre 1 et 25"
+	print "> "
+	user_input = gets.to_i
+end
 output = "#";
 puts "Voici la pyramide :"
 
